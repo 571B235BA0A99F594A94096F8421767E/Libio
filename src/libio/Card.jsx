@@ -3,8 +3,7 @@ import img1 from "../assets/cardimg/burger1.jpg";
 import img2 from "../assets/cardimg/vegburger.jpg";
 import img3 from "../assets/cardimg/eggburger.jpg";
 import img4 from "../assets/cardimg/vegsandwich.jpg";
-import img5 from "../assets/cardimg/sandwich.jpg";
-import img6 from "../assets/cardimg/eggsandwich.jpg";
+ import img6 from "../assets/cardimg/eggsandwich.jpg";
 import img7 from "../assets/cardimg/sandwich.jpg";
 import img8 from "../assets/cardimg/vegmomos.webp";
 import img9 from "../assets/cardimg/craplollipop.webp";
@@ -17,8 +16,7 @@ import img15 from "../assets/cardimg/tandoori.jpg";
 import img16 from "../assets/cardimg/wings.jpg";
 import img17 from "../assets/cardimg/moms.avif";
 import img18 from "../assets/cardimg/nuggets.jpg";
-import img19 from "../assets/cardimg/pops.webp";
-import img20 from "../assets/cardimg/pops.webp";
+ import img20 from "../assets/cardimg/pops.webp";
 import CustomizedRating from './rating';
 
 
@@ -379,7 +377,7 @@ function Card({scroll}) {
           <div>
             <img
               className="rounded-2xl w-full h-[250px] md:h-[200px] lg:w-170 lg:h-80 object-cover"
-              src={img19}
+              src={img20}
               alt=""
             />
           </div>
