@@ -1,6 +1,6 @@
 import React, {  useState,useRef } from "react";
 import Navbar from './libio/navbar'
-import Card from "./libio/card"; 
+import Card from "./libio/Card"; 
 import Simpleslider from "./libio/Slider"; 
 import Footer from "./libio/Footer";
 import  LabTabs from "./libio/Tabs"
