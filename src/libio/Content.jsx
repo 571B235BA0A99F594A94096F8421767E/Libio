@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
+import img1 from '../assets/cardimg/burger1.jpg'
+import img2 from '../assets/cardimg/pops1.jpg'
+import img3 from '../assets/cardimg/wings.jpg'
+
+import img4 from '../assets/cardimg/maincontent.jpg'
 
 function Content() {
 
@@ -23,7 +28,7 @@ const handleopen=() =>{
           
               <img
                 className=" w-15 h-15 md:w-30 md:h-20 rounded-xl"
-                src="src\assets\cardimg\burger1.jpg"
+                src={img1}
                 alt=""
               />
         
@@ -45,7 +50,7 @@ const handleopen=() =>{
           
               <img
                 className="  w-15 h-15 md:w-30 md:h-20 rounded-xl"
-                src="src\assets\cardimg\sandwich.jpg"
+                src={img2}
                 alt=""
               />
         
@@ -67,7 +72,7 @@ const handleopen=() =>{
           
           <img
             className="  w-15 h-15 md:w-30 md:h-20 rounded-xl"
-            src="src\assets\cardimg\wings.jpg"
+            src={img3}
             alt=""
           />
     
@@ -91,7 +96,7 @@ const handleopen=() =>{
       <div className="justify-items-center  h-[380px] relative ">
         <img
           className="h-full"
-          src="src\assets\cardimg\maincontent.jpg"
+          src={img4}
           alt=""
         />
         <div className="   absolute inset-29 md:inset-34 w-[130px]  " onClick={handleopen}  >
