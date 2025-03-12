@@ -1,0 +1,8 @@
+
+@import "tailwindcss";
+
+
+.slick-slide{
+    padding: 0 10px;
+    border-color:  red !important;
+}
