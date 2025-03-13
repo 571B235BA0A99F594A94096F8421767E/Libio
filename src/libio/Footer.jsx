@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./card/Socialicons";
+import img1 from '../assets/cardimg/mainlogo.png'
 
  
 
@@ -54,7 +55,7 @@ const  Footer = () => {
         <div className="container mx-auto px-4 flex flex-wrap justify-between">
           {/* Brand Section */}
           <div className="w-full md:w-1/3 mb-8  md:mb-0 rounded-full">
-            <img src='src\assets\cardimg\mainlogo.png' alt="" className="w-[100px] rounded-full" />
+            <img src={img1} alt="" className="w-[100px] rounded-full" />
 
             <address className="mt-4 not-italic pt-4">
               LIBI'O FOOD COURT, SBI Near, <br />
@@ -66,7 +67,7 @@ const  Footer = () => {
               more!
             </p>
             <form className="mt-4 flex pt-4">
-              <input
+              <input 
                 type="email"
                 placeholder="Your email address"
                 className="w-full md:w-auto px-3 py-2 rounded-l-md text-gray-800 bg-white"
@@ -249,7 +250,7 @@ const  Footer = () => {
             content={
               <>
                 <img
-                  src='src\assets\cardimg\mainlogo.png'
+                  src={img1}
                   alt=""
                   className="w-[60px] mt-2 rounded-full "
                 />
