@@ -1,5 +1,7 @@
 import React from 'react'
-
+import img1 from '../assets/cardimg/content1.png'
+import img2 from '../assets/cardimg/content2.png'
+import img3 from '../assets/cardimg/content3.png'
 function Content1() {
   return (
     <div className='container mx-auto justify-items-center '>
@@ -10,7 +12,7 @@ function Content1() {
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10'>
 
       <div className='border border-gray-200 rounded-xl w-[310px] md:w-[350px] '>
-      <img className='rounded-xl' src=" src\assets\cardimg\content1.png" alt="" />
+      <img className='rounded-xl' src={img1} alt="" />
       <div className='px-6 py-4'>
         <h1 className='text-xl text-black'>Chicken Roll</h1>
       <p className='text-sm  text-gray-400 py-3'>20 Mar 2025</p>
@@ -20,7 +22,7 @@ function Content1() {
       </div>
           
       <div className='border border-gray-200 rounded-xl w-[310px] md:w-[350px]'>
-      <img className='rounded-xl' src=" src\assets\cardimg\content2.png" alt="" />
+      <img className='rounded-xl' src={img2} alt="" />
       <div className='px-6 py-4'>
         <h1 className='text-xl text-black'>Bread Omelette</h1>
       <p className='text-sm  text-gray-400 py-3'>20 Mar 2025</p>
@@ -30,7 +32,7 @@ function Content1() {
       </div>
      
       <div className='border border-gray-200 rounded-xl w-[310px] md:w-[350px]'>
-      <img className='rounded-xl' src=" src\assets\cardimg\content3.png" alt="" />
+      <img className='rounded-xl' src={img3} alt="" />
       <div className='px-6 py-4'>
         <h1 className='text-xl text-black'>Chicken sandwich</h1>
       <p className='text-sm  text-gray-400 py-3'>20 Mar 2025</p>
