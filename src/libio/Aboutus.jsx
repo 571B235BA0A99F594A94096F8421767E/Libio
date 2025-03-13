@@ -1,13 +1,15 @@
 import React from "react";
 import Testimonial from './Testimonials'
-
+import img1 from '../assets/aboutusimg.jpg'
+import viedeo1 from '../assets/aboutus/video2.mp4'
+import viedeo2 from '../assets/aboutus/video.mp4'
 function Aboutus() {
   return (
     <div className="   mt-2 container mx-auto  ">
       <div className="z-10 relative ">
         <img
           className=" w-full h-full md:w-full opacity-90 md:h-[700px] rounded-xl "
-          src="src/assets/aboutusimg.jpg"
+          src={img1}
           alt=""
         />
         <h1 className="absolute inset-16  text-4xl md:text-7xl text-white flex justify-center items-center ">
@@ -24,7 +26,7 @@ function Aboutus() {
             loop={true}
             playsInline
           >
-            <source src=" src\assets\aboutus\video2.mp4" type="video/mp4" />
+            <source src={viedeo1} type="video/mp4" />
           </video>
           <p className=" p-4 justify-baseline text-xl font-sans">
             Creating content for a Food Court Restaurants business is an
@@ -51,7 +53,7 @@ function Aboutus() {
             loop={true}
             playsInline
           >
-            <source src="src\assets\aboutus\video.mp4" type="video/mp4" />
+            <source src={viedeo2} type="video/mp4" />
           </video>
           <p className="p-4 justify-baseline text-xl font-sans ">
            

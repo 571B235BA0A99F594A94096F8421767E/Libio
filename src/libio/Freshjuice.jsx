@@ -1,7 +1,14 @@
 import React from "react";
 import Slider from "react-slick";
-// import "slick-carousel/Slick/Slick.css";
-// import "slick-carousel/Slick/Slick-theme.css";
+import img21 from "../assets/juice/apple.jpg";
+import img22 from "../assets/juice/kirini1.jpg";
+import img23 from "../assets/juice/lemon.jpg";
+import img24 from "../assets/juice/mathulai.jpg";
+import img25 from "../assets/juice/orange.jpg";
+import img26 from "../assets/juice/rose.jpg";
+import img27 from "../assets/juice/sathukudi1.jpg";
+import img28 from "../assets/juice/watermelon.jpg";
+
 
 export default function Freshjuice() {
   var settings = {
@@ -15,7 +22,7 @@ export default function Freshjuice() {
     responsive:[
       {breakpoint:1024, settings:{slidesToShow: 3}},
       {breakpoint:640, settings:{slidesToShow: 2}},
-      {breakpoint:580, settings:{slidesToShow: 1, centerMode:true}},
+      {breakpoint:580, settings:{slidesToShow: 1}},
     ]
   };
   
@@ -27,29 +34,29 @@ export default function Freshjuice() {
    
    <div className="  my-5   "> 
     <Slider className=" rounded-2xl    " {...settings}>
-     <div className=" px-[15px]">
-        <img  className="  rounded-2xl"  src="src\assets\juice\apple.jpg" alt="" />
+     <div className=" ">
+        <img  className="w-[600px]  rounded-2xl"  src={img21} alt="" />
       </div>
-      <div className=" px-[15px]">
-       <img  className="  rounded-2xl" src="src\assets\juice\kirini.jpg" alt="" />
+      <div className=" ">
+       <img  className=" w-[600px] rounded-2xl" src={img22} alt="" />
       </div>
-      <div className=" px-[15px]">
-       <img  className=" rounded-2xl" src="src\assets\juice\lemon.jpg" alt="" />
+      <div className=" ">
+       <img  className=" w-[600px] rounded-2xl" src={img23} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\juice\mathulai.jpg" alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img24} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\juice\orange.jpg" alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img25} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\juice\rose.jpg" alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img26} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\juice\sathukudi.jpg" alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img27} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className="  rounded-2xl" src="src\assets\juice\watermelon.jpg" alt="" />
+      <div className=" ">
+        <img  className="w-[600px]  rounded-2xl" src={img27} alt="" />
       </div>
       
       

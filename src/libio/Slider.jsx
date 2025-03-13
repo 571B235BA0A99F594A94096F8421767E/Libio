@@ -7,10 +7,6 @@ import Homepage from "./Homepage";
 import GradientText from "./Gradiant";
 import Content from "./Content";
 import Content1 from "./Content1";
-import Firebase from "./Firebase";
-import { useNavigate } from "react-router-dom";
-import Button from "./card/Socialicons";
-
 import CustomizedTables from "./Display";
 import img1 from '../assets/slider/sliderimg11.jpg'
 import img2 from '../assets/slider/sliderimg12.jpg'
@@ -28,7 +24,7 @@ export default function Simpleslider() {
     slidesToScroll: 1,
     autoplay: true,
     speed:3500,
-    autoplaySpeed: 2,
+    autoplaySpeed: 3500,
     
 
   };
@@ -42,7 +38,7 @@ export default function Simpleslider() {
                  animationSpeed={7}
                  showBorder={false}
                  className="custom-class">
-    <div > <h1 className=" font-bold font-sans text-2xl  md:text-3xl  mt-10 flex justify-center  ">WELCOME TO LIBI'O FOOD COURT</h1></div>
+    <div > <h1 className=" font-bold font-sans text-xl  md:text-3xl  mt-10 flex justify-center items-center  ">WELCOME TO LIBI'O FOOD COURT</h1></div>
     </GradientText> 
     <p className="text-center text-xl text-gray-400">Since 2024</p> 
    <div className=" w-full h-[300px]   md:w-full md:h-full mb-[10px] mt-5   "> 
@@ -69,7 +65,7 @@ export default function Simpleslider() {
     <Content/>
     <Content1/>
     <CustomTabPanel/>
-    {/* <Button/> */}
+ 
     <CustomizedTables />
     </div>
   );

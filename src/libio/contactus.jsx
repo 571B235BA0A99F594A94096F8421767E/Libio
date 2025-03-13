@@ -47,6 +47,7 @@ function Contact({scroll}) {
           {/* Phone Numbers */}
           <div className="bg-gray-200 border  flex flex-col justify-center items-center p-2 text-black gap-2 rounded-xl">
             <h1 className="text-3xl md:text-4xl font-semibold">Phone</h1>
+            <p className="text-lg md:text-xl">sarasaravanan15291@gmail.com</p>
             <p className="text-lg md:text-xl">+918248966014</p>
             <p className="text-lg md:text-xl">7904988124</p>
           </div>
@@ -94,7 +95,7 @@ function Contact({scroll}) {
 
             <TextField
               id="outlined-basic"
-              label="Email"
+              label=" Customer Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               variant="standard"
