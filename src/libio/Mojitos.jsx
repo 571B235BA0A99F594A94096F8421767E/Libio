@@ -41,7 +41,11 @@ export default function Mojito() {
        <img  className="  w-[600px] rounded-2xl" src={img38} alt="" />
       </div>
       <div className=" ">
+<<<<<<< HEAD
        <img  className=" w-[600px] rounded-2xl" src={img39} alt="" />
+=======
+       <img  className="w-[600px]  rounded-2xl" src={img39} alt="" />
+>>>>>>> beb82a2b0b5c542ecdfdc96bd31eef689dd3efd2
       </div>
       <div className=" ">
         <img  className=" w-[600px] rounded-2xl" src={img40} alt="" />
@@ -50,7 +54,11 @@ export default function Mojito() {
         <img  className=" w-[600px] rounded-2xl" src={img41} alt="" />
       </div>
       <div className=" ">
+<<<<<<< HEAD
         <img  className="w-[600px]  rounded-2xl" src={img42} alt="" />
+=======
+        <img  className=" w-[600px] rounded-2xl" src={img42} alt="" />
+>>>>>>> beb82a2b0b5c542ecdfdc96bd31eef689dd3efd2
       </div> 
     
     </Slider>

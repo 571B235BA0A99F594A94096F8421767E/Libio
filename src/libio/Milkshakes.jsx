@@ -34,6 +34,7 @@ export default function Milkshake() {
    <div className="  my-5   "> 
     <Slider className=" rounded-2xl    " {...settings}>
      <div className="">
+<<<<<<< HEAD
         <img  className=" w-[600px] rounded-2xl"  src={img45} alt="" />
       </div>
       <div className="">
@@ -56,6 +57,30 @@ export default function Milkshake() {
       </div>
       <div className="">
         <img  className=" w-[600px] rounded-2xl" src={img52} alt="" />
+=======
+        <img  className=" W-[600px]   rounded-2xl"  src={img45} alt="" />
+      </div>
+      <div className="">
+       <img  className="   W-[600px] rounded-2xl" src={img46} alt="" />
+      </div>
+      <div className="">
+       <img  className="  W-[600px] rounded-2xl" src={img47} alt="" />
+      </div>
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img48} alt="" />
+      </div>
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img49} alt="" />
+      </div>
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img50} alt="" />
+      </div>
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img51} alt="" />
+      </div>
+      <div className="">
+        <img  className="  W-[600px]  rounded-2xl" src={img52} alt="" />
+>>>>>>> beb82a2b0b5c542ecdfdc96bd31eef689dd3efd2
       </div>
       
       
