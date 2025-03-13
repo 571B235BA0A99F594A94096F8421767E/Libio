@@ -169,37 +169,8 @@ useEffect(()=>{
           </div>
         </form>
       </div>
-      {/* display the output */}
-      <div>
-         <table >
-          <thead>
-            <tr>
-             
-            <th>name </th>
-            <th>fooditem</th>
-            <th>location</th>
-            <th>phone</th>
-            </tr>
-          </thead>
-          <tbody>
-           {
-            customers.map((customer)=>
-            <tr key={customer.id}>
-              <td>{customer.name}</td> 
-              {customer.fooditem.map((data)=>
-              <td>{data}</td>)} 
-              <td>{customer.loc}</td>
-              <td>{customer.phone}</td>
-             
-              {/* <button>Edit</button>
-              <button>Delete</button> */}
-
-            </tr>
-            )
-           }
-          </tbody>
-         </table>
-      </div>
+  
+     
     </div>
   );
 }
