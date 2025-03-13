@@ -24,7 +24,7 @@ export default function Icecreams() {
     responsive:[
       {breakpoint:1024, settings:{slidesToShow: 3}},
       {breakpoint:640, settings:{slidesToShow: 2}},
-      {breakpoint:580, settings:{slidesToShow: 1, centerMode:true}},
+      {breakpoint:580, settings:{slidesToShow: 1}},
     ]
   };
   
@@ -36,29 +36,29 @@ export default function Icecreams() {
    
    <div className="  my-5   "> 
     <Slider className=" rounded-2xl    " {...settings}>
-     <div className=" px-[15px]">
-        <img  className="  rounded-2xl"  src={img1} alt="" />
+     <div className=" ">
+        <img  className=" w-[600px] rounded-2xl"  src={img1} alt="" />
       </div>
-      <div className=" px-[15px]">
-       <img  className="  rounded-2xl" src={img2} alt="" />
+      <div className=" ">
+       <img  className=" w-[600px] rounded-2xl " src={img2} alt="" />
       </div>
-      <div className=" px-[15px]">
-       <img  className=" rounded-2xl" src={img3} alt="" />
+      <div className=" ">
+       <img  className="w-[600px] rounded-2xl" src={img3} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img4} alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img4} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img5} alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img5} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img6} alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img6} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img7} alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img7} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className="  rounded-2xl" src={img8} alt="" />
+      <div className=" ">
+        <img  className="w-[600px] rounded-2xl" src={img8} alt="" />
       </div>
       
       
