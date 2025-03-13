@@ -1,17 +1,18 @@
 import React from "react";
 import Slider from "react-slick";
+import img1 from '../assets/icecreams/venilaice1.jpg'
+import img2 from '../assets/icecreams/chocolate1.jpg'
+import img3 from '../assets/icecreams/strawberry1.jpg'
+import img4 from '../assets/icecreams/blackcurrent1.jpg'
+import img5 from '../assets/icecreams/butterscotch1.jpg'
+import img6 from '../assets/icecreams/nuts.jpg'
+import img7 from '../assets/icecreams/pista.jpg'
+import img8 from '../assets/icecreams/pinapple.jpg'
 
-// Importing images
-import vanilla from 'src/assets/milkshake/vennila.jpg';
-import chocolate from 'src/assets/milkshake/chocolate.jpg';
-import strawberry from 'src/assets/milkshake/strawbeery.jpg';
-import blackcurrant from 'src/assets/milkshake/blackcurrent.jpg';
-import butterscotch from 'src/assets/milkshake/butterscotch.jpg';
-import oreo from 'src/assets/milkshake/oreo.jpg';
-import nuts from 'src/assets/milkshake/nuts.jpg';
-import pineapple from 'src/assets/milkshake/pinapple.jpg';
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
-export default function Milkshake() {
+export default function Icecreams() {
   var settings = {
     dots: true,
     infinite: true,
@@ -20,43 +21,50 @@ export default function Milkshake() {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
-      { breakpoint: 640, settings: { slidesToShow: 2 } },
-      { breakpoint: 580, settings: { slidesToShow: 1, centerMode: true } },
-    ],
+    responsive:[
+      {breakpoint:1024, settings:{slidesToShow: 3}},
+      {breakpoint:640, settings:{slidesToShow: 2}},
+      {breakpoint:580, settings:{slidesToShow: 1, centerMode:true}},
+    ]
   };
-
-  return (
-    <div className="mx-5">
-      <div className="my-5">
-        <Slider className="rounded-2xl" {...settings}>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={vanilla} alt="Vanilla Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={chocolate} alt="Chocolate Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={strawberry} alt="Strawberry Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={blackcurrant} alt="Blackcurrant Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={butterscotch} alt="Butterscotch Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={oreo} alt="Oreo Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={nuts} alt="Nuts Milkshake" />
-          </div>
-          <div className="px-[15px]">
-            <img className="rounded-2xl" src={pineapple} alt="Pineapple Milkshake" />
-          </div>
-        </Slider>
+  
+    
+  
+ 
+  return (<div className=" mx-5  ">
+   
+   
+   <div className="  my-5   "> 
+    <Slider className=" rounded-2xl    " {...settings}>
+     <div className=" px-[15px]">
+        <img  className="  rounded-2xl"  src={img1} alt="" />
       </div>
+      <div className=" px-[15px]">
+       <img  className="  rounded-2xl" src={img2} alt="" />
+      </div>
+      <div className=" px-[15px]">
+       <img  className=" rounded-2xl" src={img3} alt="" />
+      </div>
+      <div className=" px-[15px]">
+        <img  className=" rounded-2xl" src={img4} alt="" />
+      </div>
+      <div className=" px-[15px]">
+        <img  className=" rounded-2xl" src={img5} alt="" />
+      </div>
+      <div className=" px-[15px]">
+        <img  className=" rounded-2xl" src={img6} alt="" />
+      </div>
+      <div className=" px-[15px]">
+        <img  className=" rounded-2xl" src={img7} alt="" />
+      </div>
+      <div className=" px-[15px]">
+        <img  className="  rounded-2xl" src={img8} alt="" />
+      </div>
+      
+      
+      
+    </Slider>
+    </div> 
     </div>
   );
 }
