@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, } from "react-router-dom";
-import img1 from '../assets/cardimg/mainlogo.png'
+import img1 from '../assets/cardimg/mainlog1.png'
  import img from '../assets/cardimg/menu icon.png'
  const Navbar = () => {
 
@@ -27,16 +27,16 @@ import img1 from '../assets/cardimg/mainlogo.png'
  <div className="bg-black text-white  top-0 flex items-center  ">
  <orderform />
  {/* Logo */}
- <div className="ml-5 mt-2   w-35 h-20">
+ <div className="ml-2  ">
    
      <img
-       className="flex justify-center rounded-full mt-2 "
+       className="flex justify-center  w-50 h-20 rounded-full mt-2 "
        src={img1}
        alt=""
      />
 
  </div >
- <div className="flex ml-5 w-full"><label className="flex  font-bold text-xl mx-5 my-4">
+ <div className="flex w-full"><label className="flex  font-bold text-xl mx-5 my-4">
    LIBI'O 
  </label></div>
  {/* Menu */}
