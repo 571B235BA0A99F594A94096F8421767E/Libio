@@ -24,7 +24,7 @@ export default function Simpleslider() {
     slidesToScroll: 1,
     autoplay: true,
     speed:3500,
-    autoplaySpeed: 2,
+    autoplaySpeed: 3500,
     
 
   };
