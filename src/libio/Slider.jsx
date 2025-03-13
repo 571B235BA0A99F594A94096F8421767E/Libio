@@ -20,7 +20,7 @@ function Content1() {
          by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to 
          be sure there isn't anything embarrassing hidden in the middle of text.</p></div>
       </div>
-          
+        
       <div className='border border-gray-200 rounded-xl w-[310px] md:w-[350px]'>
       <img className='rounded-xl' src={img2} alt="" />
       <div className='px-6 py-4'>
