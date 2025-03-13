@@ -38,7 +38,7 @@ export default function Simpleslider() {
                  animationSpeed={7}
                  showBorder={false}
                  className="custom-class">
-    <div > <h1 className=" font-bold font-sans text-2xl  md:text-3xl  mt-10 flex justify-center  ">WELCOME TO LIBI'O FOOD COURT</h1></div>
+    <div > <h1 className=" font-bold font-sans text-2xl  md:text-3xl  mt-10 flex justify-item-center  ">WELCOME TO LIBI'O FOOD COURT</h1></div>
     </GradientText> 
     <p className="text-center text-xl text-gray-400">Since 2024</p> 
    <div className=" w-full h-[300px]   md:w-full md:h-full mb-[10px] mt-5   "> 
