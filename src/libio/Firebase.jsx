@@ -170,12 +170,7 @@ useEffect(()=>{
           </div>
         </form>
       </div>
-<<<<<<< HEAD
-    
-=======
-  
-     
->>>>>>> beb82a2b0b5c542ecdfdc96bd31eef689dd3efd2
+
     </div>
   );
 }
