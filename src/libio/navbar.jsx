@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, } from "react-router-dom";
 import img1 from '../assets/cardimg/mainlogo.png'
- 
+ import img from '../assets/cardimg/menu icon.png'
  const Navbar = () => {
 
   const navigate = useNavigate();
@@ -53,7 +53,7 @@ import img1 from '../assets/cardimg/mainlogo.png'
    <button onClick={handleToggle}>
      <img
        className="w-10 h-10 mr-5 rounded-full"
-       src={img1}
+       src={img}
        alt="Menu"
      />
    </button>
