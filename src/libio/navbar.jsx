@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, } from "react-router-dom";
-import img1 from '../assets/cardimg/mainlog1.png'
+import img1 from '../assets/cardimg/mainlog1.jpeg'
  import img from '../assets/cardimg/menu icon.png'
  const Navbar = () => {
 
