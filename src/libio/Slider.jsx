@@ -12,10 +12,10 @@ import { useNavigate } from "react-router-dom";
 import Button from "./card/Socialicons";
 
 import CustomizedTables from "./Display";
-
-
-
-
+import img1 from '../assets/slider/sliderimg11.jpg'
+import img2 from '../assets/slider/sliderimg12.jpg'
+import img3 from '../assets/slider/sliderimg13.jpg'
+import img4 from '../assets/slider/sliderimg14.jpg'
 
 
 export default function Simpleslider() {
@@ -49,16 +49,16 @@ export default function Simpleslider() {
   
     <Slider className="w-full h-[500px] rounded-2xl overflow-hidden " {...settings}>
      <div >
-        <img  className=" h-[300px] object-fill md:w-full md:h-[630px] rounded-2xl"  src="src\assets\slider\sliderimg11.jpg" alt="" />
+        <img  className=" h-[300px] object-fill md:w-full md:h-[630px] rounded-2xl"  src={img1} alt="" />
       </div>
       <div>
-       <img  className=" h-[300px] md:w-full md:h-[630px] rounded-2xl" src="src\assets\slider\sliderimg12.jpg" alt="" />
+       <img  className=" h-[300px] md:w-full md:h-[630px] rounded-2xl" src={img2} alt="" />
       </div>
       <div>
-       <img  className=" h-[300px] md:w-full md:h-[630px] rounded-2xl" src="src\assets\slider\sliderimg13.jpg" alt="" />
+       <img  className=" h-[300px] md:w-full md:h-[630px] rounded-2xl" src={img3} alt="" />
       </div>
       <div>
-        <img  className="h-[300px] md:w-full md:h-[630px] rounded-2xl" src="src\assets\slider\sliderimg14.jpg" alt="" />
+        <img  className="h-[300px] md:w-full md:h-[630px] rounded-2xl" src={img4} alt="" />
       </div>
   
     </Slider>
