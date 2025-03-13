@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, } from "react-router-dom";
+import img1 from '../assets/cardimg/mainlogo.png'
  
  const Navbar = () => {
 
@@ -30,7 +31,7 @@ import { useNavigate, } from "react-router-dom";
    
      <img
        className="flex justify-center rounded-full mt-2 "
-       src="./src/assets/cardimg/mainlogo.png"
+       src={img1}
        alt=""
      />
 
@@ -52,7 +53,7 @@ import { useNavigate, } from "react-router-dom";
    <button onClick={handleToggle}>
      <img
        className="w-10 h-10 mr-5 rounded-full"
-       src="./src/assets/cardimg/menu icon.png"
+       src={img1}
        alt="Menu"
      />
    </button>
