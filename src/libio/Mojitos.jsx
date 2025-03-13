@@ -2,6 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import img37 from "../assets/mojito/blackcurrent1.jpg";
+import img38 from "../assets/mojito/bluesea1.jpg";
+import img39 from "../assets/mojito/greenapple.jpg";
+import img40 from "../assets/mojito/lime1.jpg";
+import img41 from "../assets/mojito/pinapple.jpg";
+import img42 from "../assets/mojito/strawberry.jpg";
+
 
 export default function Mojito() {
   var settings = {
@@ -28,23 +35,24 @@ export default function Mojito() {
    <div className="  my-5   "> 
     <Slider className=" rounded-2xl    " {...settings}>
      <div className=" px-[15px]">
-        <img  className="  rounded-2xl"  src="src\assets\mojito\blackcurrent1.jpg" alt="" />
+        <img  className="  rounded-2xl"  src={img37} alt="" />
       </div>
       <div className=" px-[15px]">
-       <img  className="  rounded-2xl" src="src\assets\mojito\lime1.jpg" alt="" />
+       <img  className="  rounded-2xl" src={img38} alt="" />
       </div>
       <div className=" px-[15px]">
-       <img  className=" rounded-2xl" src="src\assets\mojito\greenapple.jpg" alt="" />
+       <img  className=" rounded-2xl" src={img39} alt="" />
       </div>
       <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\mojito\strawberry.jpg" alt="" />
+        <img  className=" rounded-2xl" src={img40} alt="" />
       </div>
       <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\mojito\pinapple.jpg" alt="" />
+        <img  className=" rounded-2xl" src={img41} alt="" />
       </div>
       <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src="src\assets\mojito\bluesea1.jpg" alt="" />
+        <img  className=" rounded-2xl" src={img42} alt="" />
       </div> 
+    
     </Slider>
     </div> 
     </div>
