@@ -12,7 +12,7 @@ function Homepage() {
     const navigate = useNavigate() 
   return (
     <div className="py-6">
-      <h1 className="text-4xl text-semibold text-center">OUR CATEGORIES</h1> 
+      <h1 className="text-xl md:text-4xl text-semibold text-center">OUR CATEGORIES</h1> 
      
       <div>
         <div className="  grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 items-center gap-2   p-8">
