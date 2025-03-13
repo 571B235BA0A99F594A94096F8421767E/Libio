@@ -21,7 +21,7 @@ export default function Milkshake() {
     responsive:[
       {breakpoint:1024, settings:{slidesToShow: 3}},
       {breakpoint:640, settings:{slidesToShow: 2}},
-      {breakpoint:580, settings:{slidesToShow: 1, centerMode:true}},
+      {breakpoint:580, settings:{slidesToShow: 1}},
     ]
   };
   
@@ -33,29 +33,29 @@ export default function Milkshake() {
    
    <div className="  my-5   "> 
     <Slider className=" rounded-2xl    " {...settings}>
-     <div className=" px-[15px]">
-        <img  className="  rounded-2xl"  src={img45} alt="" />
+     <div className="">
+        <img  className=" W-[600px]   rounded-2xl"  src={img45} alt="" />
       </div>
-      <div className=" px-[15px]">
-       <img  className="  rounded-2xl" src={img46} alt="" />
+      <div className="">
+       <img  className="   W-[600px] rounded-2xl" src={img46} alt="" />
       </div>
-      <div className=" px-[15px]">
-       <img  className=" rounded-2xl" src={img47} alt="" />
+      <div className="">
+       <img  className="  W-[600px] rounded-2xl" src={img47} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img48} alt="" />
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img48} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img49} alt="" />
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img49} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img50} alt="" />
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img50} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className=" rounded-2xl" src={img51} alt="" />
+      <div className="">
+        <img  className="  W-[600px] rounded-2xl" src={img51} alt="" />
       </div>
-      <div className=" px-[15px]">
-        <img  className="  rounded-2xl" src={img52} alt="" />
+      <div className="">
+        <img  className="  W-[600px]  rounded-2xl" src={img52} alt="" />
       </div>
       
       
