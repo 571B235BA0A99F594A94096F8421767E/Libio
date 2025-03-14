@@ -1,8 +1,8 @@
 import React from "react";
 import Testimonial from './Testimonials'
 import img1 from '../assets/aboutusimg.jpg'
-import viedeo1 from '../assets/aboutus/video2.mp4'
-import viedeo2 from '../assets/aboutus/video.mp4'
+import viedeo1 from '../assets/cardimg/aboutus/video2.mp4'
+import viedeo2 from '../assets/cardimg/aboutus/video.mp4'
 function Aboutus() {
   return (
     <div className="   mt-2 container mx-auto  ">
