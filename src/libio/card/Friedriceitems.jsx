@@ -205,7 +205,7 @@ function Fiedrice({scroll}) {
         <div className="bg-gray-100 w-full rounded-2xl">
           <div>
             <img
-              className="rounded-2xl w-full h-full lg:w-170 lg:h-80 object-cover"
+              className="rounded-2xl w-full h-full  lg:w-170 lg:h-80 object-cover"
               src={img6}
               alt=""
             />
