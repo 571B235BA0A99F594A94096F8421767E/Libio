@@ -401,7 +401,7 @@ function Card({scroll}) {
               src={img20}
               alt=""
             />
-          </div>
+          </div> 
           <div className="flex justify-between mx-3 my-2">
             <h1 className="font-bold font-3xl">Nuggets</h1>
             <CustomizedRating />
