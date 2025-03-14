@@ -15,7 +15,7 @@ const StyledRating = styled(Rating)({
   },
 });
 
-export default function CustomizedRating() {
+export default function CustomizedRating() { 
   return (
     <Box sx={{ '& > legend': { mt: 2 } }}>
       {/* <Typography component="legend">Custom icon and color</Typography> */}
