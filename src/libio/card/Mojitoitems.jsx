@@ -173,7 +173,7 @@ function Mojitoitems({scroll}) {
             />
           </div>
           <div className="flex justify-between mx-3 my-2">
-            <h1 className="font-bold font-3xl">Blueberry</h1>
+            <h1 className="font-bold font-3xl">Blueberry</h1> 
             <CustomizedRating />
           </div>
           <div className="flex justify-between mx-3 mb-5">
